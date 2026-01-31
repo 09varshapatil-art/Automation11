@@ -1,0 +1,29 @@
+{
+	"defaultEnv" : "QA",
+	
+	"enviornment" :
+	{
+		"QA" : {
+			"browserName" : "chrome",
+			"baseUrl" : "https://qa-amazon.com",
+			"username" : "Testuser",
+			"password" : "test123"
+		  },
+		
+		"Stage" : {
+			"browserName" : "chrome",
+			"baseUrl" : "https://stage-amazon.com",
+			"username" : "Testuserstage",
+			"password" : "test123"
+		},
+			
+		"Prod" : {
+			        "browserName" : "chrome",		
+					"baseUrl" : "https://www.amazon.com",
+					"username" : "Admin",
+					"password" : "test123"
+				}
+					
+	}
+	
+}
